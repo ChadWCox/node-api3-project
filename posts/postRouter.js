@@ -1,8 +1,9 @@
 const express = require('express');
+const posts = require('./postDb')
 
 const router = express.Router();
 
-router.get('/', (req, res) => {
+router.get('/', async (req, res) => {
   // do your magic!
 });
 
